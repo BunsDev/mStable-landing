@@ -69,11 +69,11 @@ const Container = styled(Section)`
 
 export const Govern: FC = () => {
   return (
-    <Container h1="Discuss, vote, govern" h2="Powered by the mStable Governance token: MTA">
+    <Container h1="Discuss, Govern, Earn" h2="Powered by the Soul Governance token: $SEANCE">
       <LinkButton external={false} href={'/governance-token-meta'}>
         Learn More
       </LinkButton>
-      <ExchangeContainer>
+      {/* <ExchangeContainer>
         <ExternalLink href="https://app.bancor.network/eth/swap?from=0x1F573D6Fb3F13d689FF844B4cE37794d79a7FF1C&to=0xa3BeD4E1c75D00fa6f4E5E6922DB7261B5E9AcD2">
           <img src={Bancor} alt="Buy on Bancor" />
         </ExternalLink>
@@ -86,7 +86,7 @@ export const Govern: FC = () => {
         <ExternalLink href="https://app.uniswap.org/#/swap?outputCurrency=0xa3bed4e1c75d00fa6f4e5e6922db7261b5e9acd2">
           <img src={Uniswap} alt="https://app.uniswap.org/#/swap?outputCurrency=0xa3bed4e1c75d00fa6f4e5e6922db7261b5e9acd2/" />
         </ExternalLink>
-      </ExchangeContainer>
+      </ExchangeContainer> */}
     </Container>
   )
 }

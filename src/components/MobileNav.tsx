@@ -94,7 +94,7 @@ export const MobileNav: FC<{ className?: string }> = ({ className, children }) =
     <Container ref={container}>
       <Inner>
         <div>
-          <Link to="/" title="mStable">
+          <Link to="/" title="SoulSwap">
             <LogoImg />
           </Link>
           <MenuButton onClick={toggleShow}>

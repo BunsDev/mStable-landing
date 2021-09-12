@@ -89,15 +89,19 @@ const urls: {
   isButton?: boolean
 }[] = [
   {
-    title: 'Analytics',
-    href: 'https://duneanalytics.com/derc/mta-community',
+    title: 'Exchange',
+    href: 'https://exchange.soulswap.finance',
   },
   {
     title: 'Governance',
-    href: 'https://governance.mstable.org',
+    href: 'https://enchant.soulswap.finance',
   },
   {
-    title: 'Use mStable',
+    title: 'Forum',
+    href: 'https://forum.soulswap.finance',
+  },
+  {
+    title: 'ENTER APP',
     href: 'https://mstable.app',
     isButton: true,
   },

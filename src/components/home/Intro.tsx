@@ -66,14 +66,14 @@ const Container = styled(Section)`
 
 export const Intro: FC = () => (
   <Container
-    h1="Decentralised Stablecoin Ecosystem"
-    h2="Swap, save and protect your stablecoins on mStable, a decentralised, community driven platform powered by $MTA"
+    h1="MultiChain Exchange Protocol"
+    h2="Swap, lend, and earn on our decentralised, community-driven economy powered by $SOUL"
   >
     <Action>
-      <LinkButton href="https://mstable.app" highlight>
-        Use mStable
+      <LinkButton href="https://explore.soulswap.xyz" highlight>
+        EXPLORE
       </LinkButton>
-      <LinkButton href="https://www.notion.so/mStable-7b694f44df6344369feaa5223b297162">Learn more</LinkButton>
+      <LinkButton href="https://docs.soulswap.finance">DOCS</LinkButton>
     </Action>
     <BigStats />
   </Container>

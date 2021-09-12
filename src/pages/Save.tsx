@@ -139,8 +139,8 @@ const Container = styled(Section)`
 `
 
 export const SEO = {
-  title: 'mStable Save',
-  description: 'High yielding savings accounts powered by the mStable AMM',
+  title: 'Soul Earn',
+  description: 'High yielding savings accounts powered by the Soul AMM',
 }
 
 export const Save: FC = () => {
@@ -156,7 +156,7 @@ export const Save: FC = () => {
           </Icons>
           <div>
             <h3>
-              mStable deposits your assets to decentralised lending markets to earn a base interest rate. This rate is then further
+              SPELL deposits your assets to decentralised lending markets to earn a base interest rate. This rate is then further
               increased by distributing mStable Swap fees and liquidating external protocol incentives.
             </h3>
           </div>
@@ -164,7 +164,7 @@ export const Save: FC = () => {
         <TwoColumns>
           <div>
             <div>
-              <h4>Why mStable Save?</h4>
+              <h4>Why Spell (SPELL)?</h4>
               <p>
                 With Save, you do not need to continuously sell rewards and pay expensive gas fees to compound your deposits. Deposit once
                 and watch your assets grow.
@@ -182,29 +182,29 @@ export const Save: FC = () => {
           <div />
           <div>
             <div>
-              <h4>What is a Save Vault?</h4>
+              <h4>What is a Spell Vault?</h4>
               <p>
-                A <span>Save Vault</span> deposits your interest-bearing assets (imAssets) to a contract that distributes{' '}
-                <span>MTA incentives</span> (imAsset Vault). You can boost the amount of MTA rewards earned - by up to 3x - by staking MTA
+                A <span>Spell Vault</span> deposits your interest-bearing assets to a contract that distributes{' '}
+                <span>SOUL incentives</span> (Spell Vault). You can boost the amount of SOUL rewards earned - by up to 3x - by staking SOUL for SEANCE
                 in governance.
               </p>
             </div>
             <Links>
-              <LinkButton highlight href="https://governance.mstable.org/">
-                Stake MTA
+              <LinkButton highlight href="https://enchange.soulswap.finance/">
+                Stake SEANCE
               </LinkButton>
               <LinkButton highlight href="https://mstable.app/#/musd/save">
-                Earn MTA
+                Earn SOUL
               </LinkButton>
             </Links>
           </div>
         </TwoColumns>
-        <TwoColumns>
+        {/* <TwoColumns>
           <div>
             <div>
-              <h4>Where can I buy mStable MTA?</h4>
+              <h4>Where can I buy SOUL?</h4>
               <p>
-                MTA is traded on major exchanges like <span>Huobi</span> and <span>FTX</span>, and decentralized exchanges like{' '}
+                SOUL is traded on major exchanges like <span>Huobi</span> and <span>FTX</span>, and decentralized exchanges like{' '}
                 <span>Uniswap</span>.
               </p>
             </div>
@@ -224,7 +224,7 @@ export const Save: FC = () => {
             </Links>
           </div>
           <div />
-        </TwoColumns>
+        </TwoColumns> */}
         <Coins />
       </Container>
     </FullBleed>

@@ -49,55 +49,57 @@ const StkMTAIcon = (
 )
 
 const mAssetIcon = (
-  <svg width="40" height="37" viewBox="0 0 40 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+  <svg width="60" height="60" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
     <path
-      d="M0.248027 5.29002C0.248027 3.69246 0.150319 2.14766 0 0.550102H7.11011L7.35814 3.79043C8.15483 2.69776 10.094 0 15.1146 0C20.8869 0 22.5254 3.54175 23.0214 4.73992C25.1109 0.700814 28.4931 0.0527493 31.0785 0.0527493C36.1518 0.0527493 38.1962 3.09715 38.7373 4.09185C40.0827 6.28473 39.9775 9.32912 39.9775 11.522V25.3198H32.5667V10.9267C32.5667 8.22892 32.1684 5.23727 28.3352 5.23727C23.9309 5.23727 23.8331 9.38187 23.8331 13.1196V25.3198H16.4224V10.776C16.4224 8.83177 16.3698 5.23727 12.2961 5.23727C7.66629 5.23727 7.66629 9.23116 7.66629 10.9267V25.3198H0.248027V5.29002ZM0 30.8585H40V37H0V30.8585Z"
-      fill={Colors.neonPurple}
+      d="M416,216A80,80,0,1,0,399.993,57.609a80.013,80.013,0,0,0-94.7,64.153A159.768,159.768,0,0,0,232,104c-88.224,0-160,71.775-160,160s71.776,160,160,160,160-71.775,160-160a159.538,159.538,0,0,0-7.333-48.017,80.021,80.021,0,0,0,15.318-1.59A80.586,80.586,0,0,0,416,216Zm64-80a64.1,64.1,0,0,1-44.119,60.823,79.841,79.841,0,0,0,0-121.646A64.1,64.1,0,0,1,480,136ZM384,72a64,64,0,1,1-64,64A64.072,64.072,0,0,1,384,72ZM311.878,256c-1.523-55.576-18.7-92.817-33.225-114.567a157.872,157.872,0,0,0-13.589-17.587,143.173,143.173,0,0,1,39.02,15.479A80.135,80.135,0,0,0,367.158,214.2a142.93,142.93,0,0,1,8.616,41.8ZM224,121.927V256H168.127c1.481-51.035,16.93-85.053,30-104.894C208.243,135.757,218.453,126.385,224,121.927ZM224,272V405.925a134.978,134.978,0,0,1-25.818-29.711C175.365,341.263,169.041,301.557,168.127,272Zm16,133.927V272h55.869c-1.508,50.127-16.968,84.173-30.051,104.214A135.026,135.026,0,0,1,240,405.927ZM240,256V121.927c5.547,4.458,15.757,13.83,25.87,29.179,22.813,34.625,29.11,74.833,30.007,104.894ZM198.947,123.834a157.713,157.713,0,0,0-13.6,17.6c-14.525,21.75-31.7,58.991-33.225,114.567h-63.9C91.774,191.524,137.93,138.22,198.947,123.834ZM88.226,272h63.9c1.548,54.593,18.7,91.841,33.2,113.786A164.457,164.457,0,0,0,199.511,404.3C138.214,390.116,91.785,336.675,88.226,272ZM264.489,404.3a164.457,164.457,0,0,0,14.185-18.518c14.5-21.945,31.653-59.193,33.2-113.786h63.9C372.215,336.675,325.786,390.116,264.489,404.3ZM79.265,416.735A216,216,0,0,1,214.622,48.7l-3.06-2.04a8,8,0,0,1,8.876-13.312l24,16a8,8,0,0,1,0,13.312l-24,16a8,8,0,1,1-8.876-13.312l.533-.355C111.125,75.011,32,160.437,32,264c0,110.28,89.72,200,200,200s200-89.72,200-200a8,8,0,0,1,16,0A216,216,0,0,1,79.265,416.735ZM392,152a8.009,8.009,0,0,0-8-8,24,24,0,0,1-8-46.624V96a8,8,0,0,1,16,0h8a8,8,0,0,1,0,16H384a8,8,0,0,0,0,16,24,24,0,0,1,8,46.624V176a8,8,0,0,1-16,0h-8a8,8,0,0,1,0-16h16A8.009,8.009,0,0,0,392,152Z"
+      fill = {Colors.neonPurple}
     />
-  </svg>
+    </svg>
+
 )
 
 const PRODUCTS: Product[] = [
   {
-    key: 'massets',
-    title: 'mAssets',
-    tagline: 'Meta stablecoins used as stable value throughout DeFi',
+    key: 'Enchant',
+    title: 'SoulPower',
+    tagline: 'Our native utility token, which enables governance and fee-accumulation',
     icon: mAssetIcon,
     hue: Colors.neonPurple,
-    buttonTitle: 'Use mAssets',
+    buttonTitle: 'Use SoulPower',
     buttonBg: Colors.neonPurpleTransparent,
     bg: Colors.neonPurpleDark,
-    href: 'https://mstable.app/#/musd/swap',
+    href: 'https://exchange.soulswap.finance',
   },
   {
     key: 'amm',
-    title: 'mStable AMM',
-    tagline: 'Capital efficient AMM that supports low slippage stablecoin and bitcoin swaps',
+    title: 'Exchange',
+    tagline: 'Capital efficient AMM that supports low slippage token swaps',
     icon: AMMIcon,
     hue: Colors.neonOrange,
-    buttonTitle: 'Swap stablecoins',
+    buttonTitle: 'Swap ERC20 Tokens',
     buttonBg: Colors.neonOrangeTransparent,
     bg: Colors.neonOrangeDark,
-    href: 'https://mstable.app',
+    href: 'https://exchange.soulswap.finance',
   },
   {
-    key: 'save',
-    title: 'Save',
-    tagline: 'High yielding savings accounts, powered by the mStable AMM',
+    key: 'earn',
+    title: 'Earn',
+    tagline: 'Share a portion of our protocol fees by adding value to the ecosystem.',
     icon: SaveIcon,
     hue: Colors.neonBlue,
-    buttonTitle: 'Start saving',
+    buttonTitle: 'Start Earning',
     buttonBg: Colors.neonBlueTransparent,
     bg: Colors.neonBlueDark,
-    href: 'https://mstable.app/#/musd/save',
+    href: 'https://soulswap.finance/#/farms',
   },
   {
     key: 'stake',
     title: 'Governance',
-    tagline: 'MTA stakers earn by governing and securing mStable',
+    tagline: 'SOUL stakers earn by governing and securing SEANCE for time-weighted voting power',
     icon: StkMTAIcon,
     hue: Colors.neonPink,
-    buttonTitle: 'Govern mStable',
+    buttonTitle: 'Govern Soul',
     buttonBg: Colors.neonPinkTransparent,
     bg: Colors.neonPinkDark75,
     href: 'https://governance.mstable.org',
@@ -231,7 +233,7 @@ const Card: FC<Product> = ({ title, tagline, icon, bg, hue, buttonBg, href, butt
 )
 
 export const Products: FC = () => (
-  <Container h1="Explore our products">
+  <Container h1="Our Products">
     <Inner>
       {PRODUCTS.map((product) => (
         <Card {...product} />
